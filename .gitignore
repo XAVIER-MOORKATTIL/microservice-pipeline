@@ -1,0 +1,19 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Build & Output
+dist/
+build/
+*.log
+
+# Docker / Environment Secrets
+.env
+.env.local
+*.pem
+
+# System / IDE Files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

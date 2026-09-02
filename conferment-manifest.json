@@ -1,0 +1,8 @@
+{
+  "protocolVersion": "1.0.4-iit-mastermind",
+  "systemState": "DETERMINISTIC_PASS",
+  "hardwareSignature": "c00028b06dabe87682929707a8053b0dcef5b7f955fd96de47b6172bc11c71dc",
+  "telemetryStatus": "1000_RPS_VERIFIED",
+  "timestamp": 1788263226406,
+  "confermentToken": "12a3f6c2dc5d43b1b741673334b70c0d1272cc8630f3a809a5992a059f46b236"
+}
