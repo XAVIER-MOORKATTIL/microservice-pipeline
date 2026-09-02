@@ -6,8 +6,9 @@ const WebSocket = require('ws');
 const crypto = require('crypto');
 
 // Server Configuration Constants
+// Server Configuration Constants
 const PORT = process.env.PORT || 5000;
-const MONGO_URI = process.env.MONGO_URI;
+const MONGO_URI = process.env.MONGO_URI || process.env.MONGODB_URI;
 const SYSTEM_SECRET = process.env.STRICT_EQUALITY_HASH || crypto.randomBytes(16).toString('hex');
 
 // MongoDB Telemetry Model Initialization
